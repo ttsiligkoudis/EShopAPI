@@ -1,0 +1,17 @@
+C:\github\EShopAPI\ModelsMapper\bin\Debug\net7.0\ModelsMapper.deps.json
+C:\github\EShopAPI\ModelsMapper\bin\Debug\net7.0\ModelsMapper.dll
+C:\github\EShopAPI\ModelsMapper\bin\Debug\net7.0\ModelsMapper.pdb
+C:\github\EShopAPI\ModelsMapper\bin\Debug\net7.0\DataModels.dll
+C:\github\EShopAPI\ModelsMapper\bin\Debug\net7.0\Enums.dll
+C:\github\EShopAPI\ModelsMapper\bin\Debug\net7.0\DataModels.pdb
+C:\github\EShopAPI\ModelsMapper\bin\Debug\net7.0\Enums.pdb
+C:\github\EShopAPI\ModelsMapper\obj\Debug\net7.0\ModelsMapper.csproj.AssemblyReference.cache
+C:\github\EShopAPI\ModelsMapper\obj\Debug\net7.0\ModelsMapper.GeneratedMSBuildEditorConfig.editorconfig
+C:\github\EShopAPI\ModelsMapper\obj\Debug\net7.0\ModelsMapper.AssemblyInfoInputs.cache
+C:\github\EShopAPI\ModelsMapper\obj\Debug\net7.0\ModelsMapper.AssemblyInfo.cs
+C:\github\EShopAPI\ModelsMapper\obj\Debug\net7.0\ModelsMapper.csproj.CoreCompileInputs.cache
+C:\github\EShopAPI\ModelsMapper\obj\Debug\net7.0\ModelsMapper.csproj.CopyComplete
+C:\github\EShopAPI\ModelsMapper\obj\Debug\net7.0\ModelsMapper.dll
+C:\github\EShopAPI\ModelsMapper\obj\Debug\net7.0\refint\ModelsMapper.dll
+C:\github\EShopAPI\ModelsMapper\obj\Debug\net7.0\ModelsMapper.pdb
+C:\github\EShopAPI\ModelsMapper\obj\Debug\net7.0\ref\ModelsMapper.dll

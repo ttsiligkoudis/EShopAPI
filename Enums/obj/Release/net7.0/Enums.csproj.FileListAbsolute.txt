@@ -1,0 +1,12 @@
+C:\github\EShopAPI\Enums\bin\Release\net7.0\Enums.deps.json
+C:\github\EShopAPI\Enums\bin\Release\net7.0\Enums.dll
+C:\github\EShopAPI\Enums\bin\Release\net7.0\Enums.pdb
+C:\github\EShopAPI\Enums\obj\Release\net7.0\Enums.csproj.AssemblyReference.cache
+C:\github\EShopAPI\Enums\obj\Release\net7.0\Enums.GeneratedMSBuildEditorConfig.editorconfig
+C:\github\EShopAPI\Enums\obj\Release\net7.0\Enums.AssemblyInfoInputs.cache
+C:\github\EShopAPI\Enums\obj\Release\net7.0\Enums.AssemblyInfo.cs
+C:\github\EShopAPI\Enums\obj\Release\net7.0\Enums.csproj.CoreCompileInputs.cache
+C:\github\EShopAPI\Enums\obj\Release\net7.0\Enums.dll
+C:\github\EShopAPI\Enums\obj\Release\net7.0\refint\Enums.dll
+C:\github\EShopAPI\Enums\obj\Release\net7.0\Enums.pdb
+C:\github\EShopAPI\Enums\obj\Release\net7.0\ref\Enums.dll

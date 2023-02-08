@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\github\EShopAPI\EShopAPI\bin\Release\net7.0\publish\</_PublishTargetUrl>
+    <History>True|2023-02-08T11:22:39.5556918Z;True|2023-02-08T12:23:44.8320684+02:00;True|2023-02-08T12:07:23.9242955+02:00;True|2023-02-08T11:52:44.8078976+02:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

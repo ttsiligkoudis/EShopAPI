@@ -1,0 +1,212 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EShopAPI</name>
+    </assembly>
+    <members>
+        <member name="M:EShopAPI.Controllers.CustomersController.GetCustomers">
+            <summary>
+            Get a list of Customers
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:EShopAPI.Controllers.CustomersController.GetCustomer(System.Int32)">
+            <summary>
+            Get a specific customer by id
+            </summary>
+            <param name="id"> The customer's id</param>
+            <returns></returns>
+        </member>
+        <member name="M:EShopAPI.Controllers.CustomersController.GetCustomerByUserId(System.Int32)">
+            <summary>
+            Get a specific customer by user id
+            </summary>
+            <param name="id"> The customer's user id</param>
+            <returns></returns>
+        </member>
+        <member name="M:EShopAPI.Controllers.CustomersController.PutCustomer(System.Int32,DataModels.Dtos.CustomerDto)">
+            <summary>
+            Update a specific customer
+            </summary>
+            <param name="id"> The customer's id</param>
+            <param name="customerDto"> The instance of the customer</param>
+            <returns></returns>
+        </member>
+        <member name="M:EShopAPI.Controllers.CustomersController.PostCustomer(DataModels.Dtos.CustomerDto)">
+            <summary>
+            Create a customer
+            </summary>
+            <param name="customerDto"> An instance of a customer</param>
+            <returns></returns>
+        </member>
+        <member name="M:EShopAPI.Controllers.CustomersController.DeleteCustomer(System.Int32)">
+            <summary>
+            Delete a customer
+            </summary>
+            <param name="id"> The customer's id</param>
+            <returns></returns>
+        </member>
+        <member name="M:EShopAPI.Controllers.OrdersController.GetOrders">
+            <summary>
+            Get a list of orders
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:EShopAPI.Controllers.OrdersController.GetOrdersByCustomerId(System.Int32)">
+            <summary>
+            Get a list of orders for a specific customer
+            </summary>
+            <param name="id"> The customer's id</param>
+            <returns></returns>
+        </member>
+        <member name="M:EShopAPI.Controllers.OrdersController.GetOrder(System.Int32)">
+            <summary>
+            Get a specific order
+            </summary>
+            <param name="id"> The order's id</param>
+            <returns></returns>
+        </member>
+        <member name="M:EShopAPI.Controllers.OrdersController.GetOrderProducts(System.Int32)">
+            <summary>
+            Get a list of products from a specific order
+            </summary>
+            <param name="id"> The order's id</param>
+            <returns></returns>
+        </member>
+        <member name="M:EShopAPI.Controllers.OrdersController.GetOrderProductsByProductId(System.Int32)">
+            <summary>
+            Get a list of orders for a specific product
+            </summary>
+            <param name="id"> The product's id</param>
+            <returns></returns>
+        </member>
+        <member name="M:EShopAPI.Controllers.OrdersController.PostOrder(DataModels.Dtos.OrderDto)">
+            <summary>
+            Create an order
+            </summary>
+            <param name="orderDto"> An instance of an order</param>
+            <returns></returns>
+        </member>
+        <member name="M:EShopAPI.Controllers.OrdersController.PostOrderProducts(System.Int32,System.Collections.Generic.IEnumerable{DataModels.Dtos.OrderProductsDto})">
+            <summary>
+            Insert the products of an order
+            </summary>
+            <param name="id"> The order's id</param>
+            <param name="orderProductsDto"> A list of products</param>
+            <returns></returns>
+        </member>
+        <member name="M:EShopAPI.Controllers.OrdersController.PutOrder(System.Int32,DataModels.Dtos.OrderDto)">
+            <summary>
+            Update an order
+            </summary>
+            <param name="id"> The order's id</param>
+            <param name="orderDto"> The order's instance</param>
+            <returns></returns>
+        </member>
+        <member name="M:EShopAPI.Controllers.OrdersController.DeleteOrder(System.Int32)">
+            <summary>
+            Delete an order
+            </summary>
+            <param name="id"> The order's id</param>
+            <returns></returns>
+        </member>
+        <member name="M:EShopAPI.Controllers.ProductsController.GetProducts(System.Boolean)">
+            <summary>
+            Get a list of products
+            </summary>
+            <param name="checkQuantity"> Optional parameter to get only products with remaining quantity</param>
+            <returns></returns>
+        </member>
+        <member name="M:EShopAPI.Controllers.ProductsController.GetProduct(System.Int32)">
+            <summary>
+            Get a specific product
+            </summary>
+            <param name="id"> The product's id</param>
+            <returns></returns>
+        </member>
+        <member name="M:EShopAPI.Controllers.ProductsController.PostProduct(DataModels.Dtos.ProductDto)">
+            <summary>
+            Create a product
+            </summary>
+            <param name="productDto"> An instance of a product</param>
+            <returns></returns>
+        </member>
+        <member name="M:EShopAPI.Controllers.ProductsController.PutProduct(System.Int32,DataModels.Dtos.ProductDto)">
+            <summary>
+            Update a product
+            </summary>
+            <param name="id"> The product's id</param>
+            <param name="productDto"> The instance of the product</param>
+            <returns></returns>
+        </member>
+        <member name="M:EShopAPI.Controllers.ProductsController.DeleteProduct(System.Int32)">
+            <summary>
+            Delete a product
+            </summary>
+            <param name="id"> The product's id</param>
+            <returns></returns>
+        </member>
+        <member name="M:EShopAPI.Controllers.UsersController.GetUsers">
+            <summary>
+            Get a list of users
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:EShopAPI.Controllers.UsersController.GetUser(System.Int32)">
+            <summary>
+            Get a specific user
+            </summary>
+            <param name="id"> The user's id</param>
+            <returns></returns>
+        </member>
+        <member name="M:EShopAPI.Controllers.UsersController.GetUserByEmailAndPassword(System.String,System.String)">
+            <summary>
+            Get a specific user by email and password
+            </summary>
+            <param name="email"> The user's email</param>
+            <param name="password"> The user's password</param>
+            <returns></returns>
+        </member>
+        <member name="M:EShopAPI.Controllers.UsersController.GetUserByEmail(System.String)">
+            <summary>
+            Get a specific user by email
+            </summary>
+            <param name="email"> The user's email</param>
+            <returns></returns>
+        </member>
+        <member name="M:EShopAPI.Controllers.UsersController.PostUser(DataModels.Dtos.UserDto)">
+            <summary>
+            Create a user
+            </summary>
+            <param name="userDto"> An instance of a user</param>
+            <returns></returns>
+        </member>
+        <member name="M:EShopAPI.Controllers.UsersController.Put(System.Int32,DataModels.Dtos.UserDto)">
+            <summary>
+            Update a user
+            </summary>
+            <param name="id"> The user's id</param>
+            <param name="userDto"> The instance of the user</param>
+            <returns></returns>
+        </member>
+        <member name="M:EShopAPI.Controllers.UsersController.Delete(System.Int32)">
+            <summary>
+            Delete a user
+            </summary>
+            <param name="id"> The user's id</param>
+            <returns></returns>
+        </member>
+        <member name="T:EShopAPI.Migrations.initialMigration">
+            <inheritdoc />
+        </member>
+        <member name="M:EShopAPI.Migrations.initialMigration.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:EShopAPI.Migrations.initialMigration.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:EShopAPI.Migrations.initialMigration.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

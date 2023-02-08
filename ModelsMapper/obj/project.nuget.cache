@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "7arOEtFQaTeYrBgl1tBFt04PtREpjWK6Xtokk/XN6h73trf0O6J162BIG6kgLQ88WtAiYwYE+HIkvKi4WR8okw==",
+  "success": true,
+  "projectFilePath": "C:\\github\\EShopAPI\\ModelsMapper\\ModelsMapper.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ThemisTsiligkoudis\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\ThemisTsiligkoudis\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

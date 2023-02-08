@@ -1,0 +1,15 @@
+C:\github\EShopAPI\DataModels\bin\Release\net7.0\DataModels.deps.json
+C:\github\EShopAPI\DataModels\bin\Release\net7.0\DataModels.dll
+C:\github\EShopAPI\DataModels\bin\Release\net7.0\DataModels.pdb
+C:\github\EShopAPI\DataModels\bin\Release\net7.0\Enums.dll
+C:\github\EShopAPI\DataModels\bin\Release\net7.0\Enums.pdb
+C:\github\EShopAPI\DataModels\obj\Release\net7.0\DataModels.csproj.AssemblyReference.cache
+C:\github\EShopAPI\DataModels\obj\Release\net7.0\DataModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\github\EShopAPI\DataModels\obj\Release\net7.0\DataModels.AssemblyInfoInputs.cache
+C:\github\EShopAPI\DataModels\obj\Release\net7.0\DataModels.AssemblyInfo.cs
+C:\github\EShopAPI\DataModels\obj\Release\net7.0\DataModels.csproj.CoreCompileInputs.cache
+C:\github\EShopAPI\DataModels\obj\Release\net7.0\DataModels.csproj.CopyComplete
+C:\github\EShopAPI\DataModels\obj\Release\net7.0\DataModels.dll
+C:\github\EShopAPI\DataModels\obj\Release\net7.0\refint\DataModels.dll
+C:\github\EShopAPI\DataModels\obj\Release\net7.0\DataModels.pdb
+C:\github\EShopAPI\DataModels\obj\Release\net7.0\ref\DataModels.dll
