@@ -109,5 +109,10 @@ namespace Repositories.Customers
                 _context.Users.Remove(user);
             }
         }
+
+        public async Task<bool> CheckIfExists(int id)
+        {
+            return await _context.Customers.Where(w => w.Id == id).AnyAsync();
+        }
     }
 }

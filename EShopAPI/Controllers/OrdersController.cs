@@ -125,8 +125,7 @@ namespace EShopAPI.Controllers
         {
             var order = _mapper.Map<Order>(orderDto);
             order = await _orderRepository.Post(order);
-            _mapper.Map(order, orderDto);
-            return CreatedAtAction("GetOrder", new { id = orderDto.Id }, orderDto);
+            return Ok(_mapper.Map(order, orderDto));
         }
 
         /// <summary>

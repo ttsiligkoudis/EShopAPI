@@ -110,11 +110,12 @@
             <param name="id"> The order's id</param>
             <returns></returns>
         </member>
-        <member name="M:EShopAPI.Controllers.ProductsController.GetProducts(System.Boolean)">
+        <member name="M:EShopAPI.Controllers.ProductsController.GetProducts(System.Boolean,System.Nullable{Enums.Category})">
             <summary>
             Get a list of products
             </summary>
             <param name="checkQuantity"> Optional parameter to get only products with remaining quantity</param>
+            <param name="category"> Optional parameter to get only products of specific category</param>
             <returns></returns>
         </member>
         <member name="M:EShopAPI.Controllers.ProductsController.GetProduct(System.Int32)">
@@ -139,11 +140,65 @@
             <param name="productDto"> The instance of the product</param>
             <returns></returns>
         </member>
+        <member name="M:EShopAPI.Controllers.ProductsController.PutProductsQuantity(System.Collections.Generic.List{DataModels.Dtos.ProductDto})">
+            <summary>
+            Update products quantity
+            </summary>
+            <param name="productsDto"> A list of products</param>
+            <returns></returns>
+        </member>
         <member name="M:EShopAPI.Controllers.ProductsController.DeleteProduct(System.Int32)">
             <summary>
             Delete a product
             </summary>
             <param name="id"> The product's id</param>
+            <returns></returns>
+        </member>
+        <member name="M:EShopAPI.Controllers.ProductsController.GetProductsCount(System.Boolean,System.Nullable{Enums.Category})">
+            <summary>
+            Get the number of products
+            </summary>
+            <param name="checkQuantity"> Optional parameter to get only products with remaining quantity</param>
+            <param name="category"> Optional parameter to get only products of specific category</param>
+            <returns></returns>
+        </member>
+        <member name="M:EShopAPI.Controllers.ProductsController.GetRandomProducts(System.Int32,System.Boolean,System.Nullable{Enums.Category})">
+            <summary>
+            Get random products
+            </summary>
+            <param name="length"> This parameter determines the number of random products</param>
+            <param name="checkQuantity"> Optional parameter to get only products with remaining quantity</param>
+            <param name="category"> Optional parameter to get only products of specific category</param>
+            <returns></returns>
+        </member>
+        <member name="M:EShopAPI.Controllers.ProductsController.GetRate(System.Int32,System.Int32)">
+            <summary>
+            Get a product rate by product's id and customer's id
+            </summary>
+            <param name="productId"> The product's id</param>
+            <param name="customerId"> The customer's id</param>
+            <returns></returns>
+        </member>
+        <member name="M:EShopAPI.Controllers.ProductsController.GetRatesByProductId(System.Int32)">
+            <summary>
+            Get a product rates by product's id
+            </summary>
+            <param name="productId"> The product's id</param>
+            <returns></returns>
+        </member>
+        <member name="M:EShopAPI.Controllers.ProductsController.PostProductRate(DataModels.Dtos.ProductRatesDto)">
+            <summary>
+            Create a product rate
+            </summary>
+            <param name="rateDto"> An instance of a product rate</param>
+            <returns></returns>
+        </member>
+        <member name="M:EShopAPI.Controllers.ProductsController.PutProductRate(System.Int32,DataModels.Dtos.ProductRatesDto)">
+            <summary>
+            Update a product rate
+            </summary>
+            <param name="id"> Product rate id</param>
+            <param name="rateDto"> An instance of a product rate</param>
             <returns></returns>
         </member>
         <member name="M:EShopAPI.Controllers.UsersController.GetUsers">
@@ -206,6 +261,114 @@
             <inheritdoc />
         </member>
         <member name="M:EShopAPI.Migrations.initialMigration.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:EShopAPI.Migrations.ChangedProductPriceType4">
+            <inheritdoc />
+        </member>
+        <member name="M:EShopAPI.Migrations.ChangedProductPriceType4.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:EShopAPI.Migrations.ChangedProductPriceType4.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:EShopAPI.Migrations.ChangedProductPriceType4.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:EShopAPI.Migrations.productModelChanges">
+            <inheritdoc />
+        </member>
+        <member name="M:EShopAPI.Migrations.productModelChanges.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:EShopAPI.Migrations.productModelChanges.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:EShopAPI.Migrations.productModelChanges.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:EShopAPI.Migrations.AddedProductRatesTable">
+            <inheritdoc />
+        </member>
+        <member name="M:EShopAPI.Migrations.AddedProductRatesTable.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:EShopAPI.Migrations.AddedProductRatesTable.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:EShopAPI.Migrations.AddedProductRatesTable.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:EShopAPI.Migrations.ImageChange">
+            <inheritdoc />
+        </member>
+        <member name="M:EShopAPI.Migrations.ImageChange.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:EShopAPI.Migrations.ImageChange.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:EShopAPI.Migrations.ImageChange.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:EShopAPI.Migrations.ImageChange2">
+            <inheritdoc />
+        </member>
+        <member name="M:EShopAPI.Migrations.ImageChange2.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:EShopAPI.Migrations.ImageChange2.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:EShopAPI.Migrations.ImageChange2.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:EShopAPI.Migrations.OrderProductsQuantity">
+            <inheritdoc />
+        </member>
+        <member name="M:EShopAPI.Migrations.OrderProductsQuantity.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:EShopAPI.Migrations.OrderProductsQuantity.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:EShopAPI.Migrations.OrderProductsQuantity.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:EShopAPI.Migrations.ProductRatesCustomer">
+            <inheritdoc />
+        </member>
+        <member name="M:EShopAPI.Migrations.ProductRatesCustomer.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:EShopAPI.Migrations.ProductRatesCustomer.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:EShopAPI.Migrations.ProductRatesCustomer.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:EShopAPI.Migrations.ProductRatesChange">
+            <inheritdoc />
+        </member>
+        <member name="M:EShopAPI.Migrations.ProductRatesChange.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:EShopAPI.Migrations.ProductRatesChange.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:EShopAPI.Migrations.ProductRatesChange.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:EShopAPI.Migrations.productImagesChanges">
+            <inheritdoc />
+        </member>
+        <member name="M:EShopAPI.Migrations.productImagesChanges.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:EShopAPI.Migrations.productImagesChanges.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:EShopAPI.Migrations.productImagesChanges.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
             <inheritdoc />
         </member>
     </members>

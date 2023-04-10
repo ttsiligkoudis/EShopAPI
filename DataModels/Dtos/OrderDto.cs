@@ -14,12 +14,12 @@ namespace DataModels.Dtos
         /// <summary>
         /// The customer's name of the order
         /// </summary>
-        public string CustomerName { get; set; }
+        public string? CustomerName { get; set; }
 
         /// <summary>
         /// The customer instance it self
         /// </summary>
-        public CustomerDto Customer { get; set; }
+        public CustomerDto? Customer { get; set; }
 
         /// <summary>
         /// The customer's id that the order is connected to 
@@ -29,7 +29,7 @@ namespace DataModels.Dtos
         /// <summary>
         /// The final price of the order
         /// </summary>
-        public float FinalPrice { get; set; }
+        public decimal FinalPrice { get; set; }
 
         /// <summary>
         /// The date that the order was placed

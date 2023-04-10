@@ -8,7 +8,9 @@ namespace EShop.Profiles
     {
         public ProductsProfile()
         {
-            CreateMap<Product, ProductDto>();
+            CreateMap<Product, ProductDto>()
+                .ForMember(dest => dest.Rate,
+                    opt => opt.MapFrom(src => src.ProductRates.Select(s => s.Rate).ToList().DefaultIfEmpty(0).Average()));
             CreateMap<ProductDto, Product>();
 
         }

@@ -9,8 +9,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataModels", "DataModels\Da
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repositories", "Repositories\Repositories.csproj", "{C35827CD-AF72-4B9C-A9CE-79EB9D14CD83}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModelsMapper", "ModelsMapper\ModelsMapper.csproj", "{288ED5B9-F2A4-4D10-80E1-C75EB5E60B95}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Context", "DbContext\Context.csproj", "{FC40B275-CCB9-4FAF-A937-36C6114C3EA4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{68495F20-730F-4AFB-BB9E-2950E654494B}"
@@ -38,10 +36,6 @@ Global
 		{C35827CD-AF72-4B9C-A9CE-79EB9D14CD83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C35827CD-AF72-4B9C-A9CE-79EB9D14CD83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C35827CD-AF72-4B9C-A9CE-79EB9D14CD83}.Release|Any CPU.Build.0 = Release|Any CPU
-		{288ED5B9-F2A4-4D10-80E1-C75EB5E60B95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{288ED5B9-F2A4-4D10-80E1-C75EB5E60B95}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{288ED5B9-F2A4-4D10-80E1-C75EB5E60B95}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{288ED5B9-F2A4-4D10-80E1-C75EB5E60B95}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FC40B275-CCB9-4FAF-A937-36C6114C3EA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FC40B275-CCB9-4FAF-A937-36C6114C3EA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC40B275-CCB9-4FAF-A937-36C6114C3EA4}.Release|Any CPU.ActiveCfg = Release|Any CPU

@@ -1,9 +1,14 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using DataModels.Dtos;
+using System.ComponentModel.DataAnnotations;
 
 namespace DataModels
 {
     public class Customer
     {
+        public Customer()
+        {
+            ProductRates = new HashSet<ProductRates>();
+        }
         public int Id { get; set; }
         [Required]
         public string Name { get; set; }
@@ -17,5 +22,7 @@ namespace DataModels
         public DateTime RegDate { get; set; }
         public User User { get; set; }
         public int? UserId { get; set; }
+
+        public virtual ICollection<ProductRates> ProductRates { get; set; }
     }
 }

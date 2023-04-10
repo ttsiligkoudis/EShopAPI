@@ -23,18 +23,23 @@ namespace DataModels.Dtos
         public string ProductName { get; set; }
 
         /// <summary>
-        /// The product's category
-        /// </summary>
-        public  Category ProductCategory { get; set; }
-
-        /// <summary>
         /// The product's id
         /// </summary>
         public int ProductId { get; set; }
 
         /// <summary>
+        /// The product instance it self
+        /// </summary>
+        public ProductDto? Product { get; set; }
+
+        /// <summary>
         /// the product's price
         /// </summary>
-        public float ProductPrice { get; set; }
+        public decimal Price { get; set; }
+
+        /// <summary>
+        /// the product's quantity
+        /// </summary>
+        public int? Quantity { get; set; }
     }
 }

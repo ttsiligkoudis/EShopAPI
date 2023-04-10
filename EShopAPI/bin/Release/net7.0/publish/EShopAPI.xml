@@ -208,5 +208,41 @@
         <member name="M:EShopAPI.Migrations.initialMigration.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
             <inheritdoc />
         </member>
+        <member name="T:EShopAPI.Migrations.ChangedProductPriceType4">
+            <inheritdoc />
+        </member>
+        <member name="M:EShopAPI.Migrations.ChangedProductPriceType4.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:EShopAPI.Migrations.ChangedProductPriceType4.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:EShopAPI.Migrations.ChangedProductPriceType4.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:EShopAPI.Migrations.productModelChanges">
+            <inheritdoc />
+        </member>
+        <member name="M:EShopAPI.Migrations.productModelChanges.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:EShopAPI.Migrations.productModelChanges.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:EShopAPI.Migrations.productModelChanges.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:EShopAPI.Migrations.AddedProductRatesTable">
+            <inheritdoc />
+        </member>
+        <member name="M:EShopAPI.Migrations.AddedProductRatesTable.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:EShopAPI.Migrations.AddedProductRatesTable.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:EShopAPI.Migrations.AddedProductRatesTable.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
     </members>
 </doc>

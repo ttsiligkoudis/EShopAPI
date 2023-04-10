@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "FPrdu84olrBT03w0QC7rF252PVEW2FlB2l/1M5/HFajDDa+UtjhqjqxmzjYRY4KMKt//WLD9zIxhamxx0i4WHg==",
+  "dgSpecHash": "AcnG0rBJVO6spU9WCdEFQajkqeZ4mxRmwnjvvU87Rl53b5gAb5/hXo6nzHrHU5IvcC9MQo5lMuuCCbiy/2u3Pw==",
   "success": true,
   "projectFilePath": "C:\\github\\EShopAPI\\DbContext\\Context.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ThemisTsiligkoudis\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\ThemisTsiligkoudis\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\ThemisTsiligkoudis\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\ThemisTsiligkoudis\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\ThemisTsiligkoudis\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\ThemisTsiligkoudis\\.nuget\\packages\\microsoft.data.sqlclient\\5.0.1\\microsoft.data.sqlclient.5.0.1.nupkg.sha512",

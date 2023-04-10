@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "73NLHscL+5gmATzEXZu9uv1xHZIq0AwhjLuoVFiWTTpE5bvMDWlfQyBP3YOquvuwEusw4coDI/8petxKflKuuQ==",
+  "dgSpecHash": "TlLG4eHTYk05mCDHcV6ZL9478wK2oss4yQhe/64YI8bjAlyVBGtGzpvgaInxMxzoEXErFxNeQJyBsyrFwWSRhQ==",
   "success": true,
   "projectFilePath": "C:\\github\\EShopAPI\\EShopAPI\\EShopAPI.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "C:\\Users\\ThemisTsiligkoudis\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\ThemisTsiligkoudis\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\ThemisTsiligkoudis\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\ThemisTsiligkoudis\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\ThemisTsiligkoudis\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.2\\microsoft.aspnetcore.openapi.7.0.2.nupkg.sha512",
     "C:\\Users\\ThemisTsiligkoudis\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\ThemisTsiligkoudis\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

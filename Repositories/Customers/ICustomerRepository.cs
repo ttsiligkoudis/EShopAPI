@@ -10,5 +10,6 @@ namespace Repositories.Customers
         Task<Customer> Post(Customer customer);
         Task<Customer> Put(Customer customer);
         Task<object> Delete(int id);
+        Task<bool> CheckIfExists(int id);
     }
 }

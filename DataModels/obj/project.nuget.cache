@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "62yfnh+14rIBYKjnEl9GNtTJQSDoYjePMqyrgBWh8ipfGt5ZGY2ThYkCGRIpQfa18+Mv+uJ3dxPZAbVNgaHfGA==",
+  "dgSpecHash": "1r9ovezgwjAQkVQFNchLTW70U7BngBsKq94l+FjIsv7xk45NT/JeCSYFSVrwun2bwGdEYtfXKtd9fcVl2P/YdQ==",
   "success": true,
   "projectFilePath": "C:\\github\\EShopAPI\\DataModels\\DataModels.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ThemisTsiligkoudis\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
+    "C:\\Users\\ThemisTsiligkoudis\\.nuget\\packages\\microsoft.extensions.primitives\\2.2.0\\microsoft.extensions.primitives.2.2.0.nupkg.sha512",
+    "C:\\Users\\ThemisTsiligkoudis\\.nuget\\packages\\system.memory\\4.5.1\\system.memory.4.5.1.nupkg.sha512",
+    "C:\\Users\\ThemisTsiligkoudis\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.1\\system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512"
+  ],
   "logs": []
 }

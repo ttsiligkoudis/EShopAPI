@@ -14,10 +14,10 @@ namespace DataModels.Dtos
         public int Id { get; set; }
 
         /// <summary>
-        /// The description of the product
+        /// The name of the product
         /// </summary>
         [Required]
-        [Display(Name = "Product Description")]
+        [Display(Name = "Product Name")]
         public string Name { get; set; }
 
         /// <summary>
@@ -27,19 +27,33 @@ namespace DataModels.Dtos
         public Category Category { get; set; }
 
         /// <summary>
-        /// The color of the product
+        /// The description of the product
         /// </summary>
-        public string Color { get; set; }
+        [Required]
+        [Display(Name = "Product description")]
+        public string Description { get; set; }
 
         /// <summary>
         /// The price of the product
         /// </summary>
         [Required]
-        public float Price { get; set; }
+        public decimal Price { get; set; }
 
         /// <summary>
         /// The remaining quantity of the product
         /// </summary>
         public int? Quantity { get; set; }
+
+        /// <summary>
+        /// The image of the product
+        /// </summary>
+        [Display(Name = "Product image")]
+        public string? Image { get; set; }
+        //public byte[] Image { get; set; }
+
+        /// <summary>
+        /// The rate of the product
+        /// </summary>
+        public decimal? Rate { get; set; }
     }
 }

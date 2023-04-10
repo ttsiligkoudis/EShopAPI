@@ -32,15 +32,48 @@ namespace Enums
     }
 
     /// <summary>
-    /// The products' categories {Lips = 1, Eyes = 2, Body = 3, Face = 4}
+    /// The products' categories {Laptops = 1, Tablets = 2, Smartphones = 3}
     /// </summary>
     [TypeConverter]
     public enum Category : short
     {
-        Lips = 1,
-        Eyes = 2,
-        Body = 3,
-        Face = 4,
+        Laptops = 1,
+        Tablets = 2,
+        Smartphones = 3
+    }
+
+    /// <summary>
+    /// The order by entity {Ascending = 1, Descending = 2}
+    /// </summary>
+    [TypeConverter]
+    public enum OrderBy : short
+    {
+        Name = 1,
+        Price = 2,
+        Quantity = 3,
+        Rate = 4
+    }
+
+    /// <summary>
+    /// The order type {Ascending = 1, Descending = 2}
+    /// </summary>
+    [TypeConverter]
+    public enum OrderType : short
+    {
+        Ascending = 1,
+        Descending = 2,
+    }
+
+    /// <summary>
+    /// The page size {Ten = 10, Twenty = 20, Thirty = 30, Fifty = 50}
+    /// </summary>
+    [TypeConverter]
+    public enum PageSize : short
+    {
+        Ten = 10,
+        Twenty = 20,
+        Thirty = 30,
+        Fifty = 50
     }
 
 }
