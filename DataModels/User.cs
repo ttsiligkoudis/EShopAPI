@@ -18,5 +18,7 @@ namespace DataModels
         public DateTime RegDate { get; set; }
         [Display(Name = "Last Login Date")]
         public DateTime? LoginDate { get; set; }
+        [Display(Name = "Password Reset Token")]
+        public string? PasswordResetToken { get; set; }
     }
 }

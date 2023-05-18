@@ -43,5 +43,11 @@ namespace DataModels.Dtos
         /// </summary>
         [Display(Name = "Last Login Date")]
         public DateTime? LoginDate { get; set; }
+
+        /// <summary>
+        /// Token that is used for validation before Password Reset
+        /// </summary>
+        [Display(Name = "Password Reset Token")]
+        public string? PasswordResetToken { get; set; }
     }
 }

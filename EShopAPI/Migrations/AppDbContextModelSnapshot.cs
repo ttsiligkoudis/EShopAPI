@@ -196,6 +196,9 @@ namespace EShopAPI.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("PasswordResetToken")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<DateTime>("RegDate")
                         .HasColumnType("datetime2");
 

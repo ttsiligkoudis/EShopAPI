@@ -21,13 +21,13 @@ namespace DataModels.Dtos
         /// <summary>
         /// The city of the customer
         /// </summary>
-        [Required]
+        //[Required]
         public string City { get; set; }
 
         /// <summary>
         /// The address of the customer
         /// </summary>
-        [Required]
+        //[Required]
         public string Address { get; set; }
 
         /// <summary>

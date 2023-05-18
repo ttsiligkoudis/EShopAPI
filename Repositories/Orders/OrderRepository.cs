@@ -1,6 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using DataModels;
 using Context;
+using System.Net.Mail;
+using System.Net;
 
 namespace Repositories.Orders
 {

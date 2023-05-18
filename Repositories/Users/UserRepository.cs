@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using DataModels;
 using Context;
+using Repositories.Helpers;
 
 namespace Repositories.Users
 {
@@ -42,8 +43,12 @@ namespace Repositories.Users
 
         public async Task<User> GetUser(string email, string password)
         {
-            return await _context.Users.SingleOrDefaultAsync(u =>
-                u.Email == email && u.Password == password);
+            var user = await _context.Users
+                .SingleOrDefaultAsync(u => u.Email == email);
+
+            var isPasswordValid = Crypt.VerifyPassword(password, user?.Password);
+
+            return isPasswordValid ? user : null;
         }
 
         public async Task<User> GetUser(string email)
@@ -54,6 +59,7 @@ namespace Repositories.Users
 
         public async Task<User> Post(User user)
         {
+            user.Password = Crypt.HashPassword(user.Password);
             _context.Users.Add(user);
             await _context.SaveChangesAsync();
             return user;

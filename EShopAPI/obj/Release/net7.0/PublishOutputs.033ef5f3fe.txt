@@ -9,6 +9,7 @@ C:\github\EShopAPI\EShopAPI\obj\Release\net7.0\PubTmp\Out\AutoMapper.Collection.
 C:\github\EShopAPI\EShopAPI\obj\Release\net7.0\PubTmp\Out\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\github\EShopAPI\EShopAPI\obj\Release\net7.0\PubTmp\Out\Azure.Core.dll
 C:\github\EShopAPI\EShopAPI\obj\Release\net7.0\PubTmp\Out\Azure.Identity.dll
+C:\github\EShopAPI\EShopAPI\obj\Release\net7.0\PubTmp\Out\BCrypt.Net-Next.dll
 C:\github\EShopAPI\EShopAPI\obj\Release\net7.0\PubTmp\Out\Microsoft.AspNetCore.OpenApi.dll
 C:\github\EShopAPI\EShopAPI\obj\Release\net7.0\PubTmp\Out\Microsoft.Bcl.AsyncInterfaces.dll
 C:\github\EShopAPI\EShopAPI\obj\Release\net7.0\PubTmp\Out\Microsoft.Data.SqlClient.dll

@@ -87,3 +87,4 @@ C:\github\EShopAPI\EShopAPI\obj\Release\net7.0\EShopAPI.pdb
 C:\github\EShopAPI\EShopAPI\obj\Release\net7.0\EShopAPI.genruntimeconfig.cache
 C:\github\EShopAPI\EShopAPI\obj\Release\net7.0\ref\EShopAPI.dll
 C:\github\EShopAPI\EShopAPI\bin\Release\net7.0\EShopAPI.xml
+C:\github\EShopAPI\EShopAPI\bin\Release\net7.0\BCrypt.Net-Next.dll

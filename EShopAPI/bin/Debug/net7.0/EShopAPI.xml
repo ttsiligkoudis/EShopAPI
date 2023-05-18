@@ -46,6 +46,13 @@
             <param name="id"> The customer's id</param>
             <returns></returns>
         </member>
+        <member name="M:EShopAPI.Controllers.MessagesController.SendMessage(DataModels.Dtos.MessageDto)">
+            <summary>
+            Send Message
+            </summary>
+            <param name="message">The message's instance</param>
+            <returns></returns>
+        </member>
         <member name="M:EShopAPI.Controllers.OrdersController.GetOrders">
             <summary>
             Get a list of orders
@@ -369,6 +376,18 @@
             <inheritdoc />
         </member>
         <member name="M:EShopAPI.Migrations.productImagesChanges.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:EShopAPI.Migrations.AddedPasswordResetToken">
+            <inheritdoc />
+        </member>
+        <member name="M:EShopAPI.Migrations.AddedPasswordResetToken.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:EShopAPI.Migrations.AddedPasswordResetToken.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:EShopAPI.Migrations.AddedPasswordResetToken.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
             <inheritdoc />
         </member>
     </members>
