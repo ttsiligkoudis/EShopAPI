@@ -42,7 +42,10 @@
       "System.Runtime.CompilerServices.Unsafe/4.5.1": {},
       "Enums/1.0.0": {
         "runtime": {
-          "Enums.dll": {}
+          "Enums.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
