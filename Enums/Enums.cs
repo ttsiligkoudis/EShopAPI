@@ -75,5 +75,4 @@ namespace Enums
         Thirty = 30,
         Fifty = 50
     }
-
 }

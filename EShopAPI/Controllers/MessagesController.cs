@@ -18,9 +18,7 @@ namespace EShopAPI.Controllers
         [HttpPost("SendMessage", Name = "SendMessage")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-#pragma warning disable CS1998 // Async method lacks 'await' operators and will run synchronously
         public async Task<ActionResult<object>> SendMessage(MessageDto message)
-#pragma warning restore CS1998 // Async method lacks 'await' operators and will run synchronously
         {
             var mail = new MailMessage
             {

@@ -56,7 +56,7 @@ namespace EShopAPI.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("Customers");
+                    b.ToTable("Customers", (string)null);
                 });
 
             modelBuilder.Entity("DataModels.Order", b =>
@@ -83,7 +83,7 @@ namespace EShopAPI.Migrations
 
                     b.HasIndex("CustomerId");
 
-                    b.ToTable("Orders");
+                    b.ToTable("Orders", (string)null);
                 });
 
             modelBuilder.Entity("DataModels.OrderProducts", b =>
@@ -112,7 +112,7 @@ namespace EShopAPI.Migrations
 
                     b.HasIndex("ProductId");
 
-                    b.ToTable("OrderProducts");
+                    b.ToTable("OrderProducts", (string)null);
                 });
 
             modelBuilder.Entity("DataModels.Product", b =>
@@ -145,7 +145,7 @@ namespace EShopAPI.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Products");
+                    b.ToTable("Products", (string)null);
                 });
 
             modelBuilder.Entity("DataModels.ProductRates", b =>
@@ -174,7 +174,7 @@ namespace EShopAPI.Migrations
 
                     b.HasIndex("ProductId");
 
-                    b.ToTable("ProductRates");
+                    b.ToTable("ProductRates", (string)null);
                 });
 
             modelBuilder.Entity("DataModels.User", b =>
@@ -207,7 +207,7 @@ namespace EShopAPI.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Users");
+                    b.ToTable("Users", (string)null);
                 });
 
             modelBuilder.Entity("DataModels.Customer", b =>

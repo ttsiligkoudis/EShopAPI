@@ -113,6 +113,18 @@
           }
         }
       },
+      "JsonSubTypes/1.5.2": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/JsonSubTypes.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/JsonSubTypes.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Http.Features/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -789,6 +801,38 @@
           }
         }
       },
+      "Org.OpenAPITools/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "JsonSubTypes": "1.5.2",
+          "Newtonsoft.Json": "12.0.1",
+          "RestSharp": "106.10.1",
+          "System.ComponentModel.Annotations": "4.5.0"
+        },
+        "compile": {
+          "lib/netcoreapp2.0/Org.OpenAPITools.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/Org.OpenAPITools.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "RestSharp/106.10.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Swashbuckle.AspNetCore/6.5.0": {
         "type": "package",
         "dependencies": {
@@ -870,6 +914,15 @@
         },
         "runtime": {
           "lib/netstandard2.0/System.CodeDom.dll": {}
+        }
+      },
+      "System.ComponentModel.Annotations/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
         }
       },
       "System.Configuration.ConfigurationManager/5.0.0": {
@@ -1505,6 +1558,27 @@
         "lib/netstandard2.0/Humanizer.dll",
         "lib/netstandard2.0/Humanizer.xml",
         "logo.png"
+      ]
+    },
+    "JsonSubTypes/1.5.2": {
+      "sha512": "Lu1fbpVYMDl45cz8Y0cH7MTjIN0dDhjg2srkbIJ7fjHvGepfzgKCf7WC5qp2vCxVZfNDeAcS1YAJZELhUFVPsw==",
+      "type": "package",
+      "path": "jsonsubtypes/1.5.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "jsonsubtypes.1.5.2.nupkg.sha512",
+        "jsonsubtypes.nuspec",
+        "lib/net35/JsonSubTypes.dll",
+        "lib/net40/JsonSubTypes.dll",
+        "lib/net45/JsonSubTypes.dll",
+        "lib/net46/JsonSubTypes.dll",
+        "lib/net47/JsonSubTypes.dll",
+        "lib/netstandard1.3/JsonSubTypes.dll",
+        "lib/netstandard1.4/JsonSubTypes.dll",
+        "lib/netstandard1.5/JsonSubTypes.dll",
+        "lib/netstandard1.6/JsonSubTypes.dll",
+        "lib/netstandard2.0/JsonSubTypes.dll"
       ]
     },
     "Microsoft.AspNetCore.Http.Features/2.2.0": {
@@ -2725,6 +2799,34 @@
         "packageIcon.png"
       ]
     },
+    "Org.OpenAPITools/1.0.0": {
+      "sha512": "TUyvifH3ADQI/yfbTquQW0A+JIPfjYl7ip0mVP4fY/IZb1adTh6KfqsWcjitdUZ5sk2zOr+oWRZBz9N34/wviQ==",
+      "type": "package",
+      "path": "org.openapitools/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp2.0/Org.OpenAPITools.dll",
+        "lib/netcoreapp2.0/Org.OpenAPITools.xml",
+        "org.openapitools.1.0.0.nupkg.sha512",
+        "org.openapitools.nuspec"
+      ]
+    },
+    "RestSharp/106.10.1": {
+      "sha512": "MhR4w8LbArVaRA5T/oAR3ZnF852QXtDXRBO84GsvyYzsm7FsjXHJ+JaM8x/nR/B/OCB1WbolGH7hqMT1GZpNJw==",
+      "type": "package",
+      "path": "restsharp/106.10.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/RestSharp.dll",
+        "lib/net452/RestSharp.xml",
+        "lib/netstandard2.0/RestSharp.dll",
+        "lib/netstandard2.0/RestSharp.xml",
+        "restsharp.106.10.1.nupkg.sha512",
+        "restsharp.nuspec"
+      ]
+    },
     "Swashbuckle.AspNetCore/6.5.0": {
       "sha512": "FK05XokgjgwlCI6wCT+D4/abtQkL1X1/B9Oas6uIwHFmYrIO9WUD5aLC9IzMs9GnHfUXOtXZ2S43gN1mhs5+aA==",
       "type": "package",
@@ -2863,6 +2965,95 @@
         "ref/netstandard2.0/System.CodeDom.xml",
         "system.codedom.4.4.0.nupkg.sha512",
         "system.codedom.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.ComponentModel.Annotations/4.5.0": {
+      "sha512": "UxYQ3FGUOtzJ7LfSdnYSFd7+oEv6M8NgUatatIN2HxNtDdlcvFAf+VIq4Of9cDMJEJC0aSRv/x898RYhB4Yppg==",
+      "type": "package",
+      "path": "system.componentmodel.annotations/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/net461/System.ComponentModel.Annotations.dll",
+        "lib/netcore50/System.ComponentModel.Annotations.dll",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.4/System.ComponentModel.Annotations.dll",
+        "lib/netstandard2.0/System.ComponentModel.Annotations.dll",
+        "lib/portable-net45+win8/_._",
+        "lib/uap10.0.16299/_._",
+        "lib/win8/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/net461/System.ComponentModel.Annotations.dll",
+        "ref/net461/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/System.ComponentModel.Annotations.dll",
+        "ref/netcore50/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/de/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/es/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/fr/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/it/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/ja/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/ko/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/ru/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/zh-hans/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/zh-hant/System.ComponentModel.Annotations.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.1/System.ComponentModel.Annotations.dll",
+        "ref/netstandard1.1/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/de/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/es/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/fr/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/it/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/ja/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/ko/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/ru/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/zh-hans/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/zh-hant/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/System.ComponentModel.Annotations.dll",
+        "ref/netstandard1.3/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/de/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/es/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/fr/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/it/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/ja/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/ko/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/ru/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/zh-hans/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/zh-hant/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/System.ComponentModel.Annotations.dll",
+        "ref/netstandard1.4/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/de/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/es/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/fr/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/it/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/ja/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/ko/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/ru/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/zh-hans/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/zh-hant/System.ComponentModel.Annotations.xml",
+        "ref/netstandard2.0/System.ComponentModel.Annotations.dll",
+        "ref/netstandard2.0/System.ComponentModel.Annotations.xml",
+        "ref/portable-net45+win8/_._",
+        "ref/uap10.0.16299/_._",
+        "ref/win8/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.componentmodel.annotations.4.5.0.nupkg.sha512",
+        "system.componentmodel.annotations.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
@@ -4191,6 +4382,7 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.2",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.2",
       "Newtonsoft.Json >= 13.0.3-beta1",
+      "Org.OpenAPITools >= 1.0.0",
       "Repositories >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
@@ -4223,11 +4415,7 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {},
-        "https://pkgs.dev.azure.com/vertitech-tfs/_packaging/Classter.Consumer/nuget/v3/index.json": {},
-        "https://pkgs.dev.azure.com/vertitech-tfs/_packaging/Classter.Identity/nuget/v3/index.json": {},
-        "https://pkgs.dev.azure.com/vertitech-tfs/_packaging/Classter.Packages/nuget/v3/index.json": {},
-        "https://pkgs.dev.azure.com/vertitech-tfs/_packaging/Classter.Repos/nuget/v3/index.json": {},
-        "https://pkgs.dev.azure.com/vertitech-tfs/_packaging/Classter/nuget/v3/index.json": {}
+        "https://pkgs.dev.azure.com/vertitech-tfs/_packaging/Classter.Repos/nuget/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
@@ -4243,6 +4431,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -4275,6 +4468,10 @@
             "target": "Package",
             "version": "[13.0.3-beta1, )"
           },
+          "Org.OpenAPITools": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[6.5.0, )"
@@ -4299,7 +4496,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

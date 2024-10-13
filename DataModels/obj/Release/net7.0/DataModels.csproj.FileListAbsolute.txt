@@ -8,8 +8,9 @@ C:\github\EShopAPI\DataModels\obj\Release\net7.0\DataModels.GeneratedMSBuildEdit
 C:\github\EShopAPI\DataModels\obj\Release\net7.0\DataModels.AssemblyInfoInputs.cache
 C:\github\EShopAPI\DataModels\obj\Release\net7.0\DataModels.AssemblyInfo.cs
 C:\github\EShopAPI\DataModels\obj\Release\net7.0\DataModels.csproj.CoreCompileInputs.cache
-C:\github\EShopAPI\DataModels\obj\Release\net7.0\DataModels.csproj.CopyComplete
 C:\github\EShopAPI\DataModels\obj\Release\net7.0\DataModels.dll
 C:\github\EShopAPI\DataModels\obj\Release\net7.0\refint\DataModels.dll
 C:\github\EShopAPI\DataModels\obj\Release\net7.0\DataModels.pdb
 C:\github\EShopAPI\DataModels\obj\Release\net7.0\ref\DataModels.dll
+C:\github\EShopAPI\DataModels\obj\Release\net7.0\DataModels.sourcelink.json
+C:\github\EShopAPI\DataModels\obj\Release\net7.0\DataModels.csproj.Up2Date

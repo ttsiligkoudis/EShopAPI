@@ -17,3 +17,4 @@ C:\github\EShopAPI\Repositories\obj\Debug\net7.0\Repositories.dll
 C:\github\EShopAPI\Repositories\obj\Debug\net7.0\refint\Repositories.dll
 C:\github\EShopAPI\Repositories\obj\Debug\net7.0\Repositories.pdb
 C:\github\EShopAPI\Repositories\obj\Debug\net7.0\ref\Repositories.dll
+C:\github\EShopAPI\Repositories\obj\Debug\net7.0\Repositories.sourcelink.json

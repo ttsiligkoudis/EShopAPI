@@ -88,3 +88,7 @@ C:\github\EShopAPI\EShopAPI\obj\Debug\net7.0\EShopAPI.genruntimeconfig.cache
 C:\github\EShopAPI\EShopAPI\obj\Debug\net7.0\ref\EShopAPI.dll
 C:\github\EShopAPI\EShopAPI\bin\Debug\net7.0\EShopAPI.xml
 C:\github\EShopAPI\EShopAPI\bin\Debug\net7.0\BCrypt.Net-Next.dll
+C:\github\EShopAPI\EShopAPI\bin\Debug\net7.0\JsonSubTypes.dll
+C:\github\EShopAPI\EShopAPI\bin\Debug\net7.0\Org.OpenAPITools.dll
+C:\github\EShopAPI\EShopAPI\bin\Debug\net7.0\RestSharp.dll
+C:\github\EShopAPI\EShopAPI\obj\Debug\net7.0\EShopAPI.sourcelink.json

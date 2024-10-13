@@ -15,3 +15,4 @@ C:\github\EShopAPI\DbContext\obj\Debug\net7.0\Context.dll
 C:\github\EShopAPI\DbContext\obj\Debug\net7.0\refint\Context.dll
 C:\github\EShopAPI\DbContext\obj\Debug\net7.0\Context.pdb
 C:\github\EShopAPI\DbContext\obj\Debug\net7.0\ref\Context.dll
+C:\github\EShopAPI\DbContext\obj\Debug\net7.0\Context.sourcelink.json

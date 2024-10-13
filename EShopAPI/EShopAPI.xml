@@ -390,5 +390,17 @@
         <member name="M:EShopAPI.Migrations.AddedPasswordResetToken.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
             <inheritdoc />
         </member>
+        <member name="T:EShopAPI.Migrations.test">
+            <inheritdoc />
+        </member>
+        <member name="M:EShopAPI.Migrations.test.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:EShopAPI.Migrations.test.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:EShopAPI.Migrations.test.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
     </members>
 </doc>
