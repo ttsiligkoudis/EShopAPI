@@ -1,7 +1,0 @@
-C:\inetpub\publish\EShopAPI\DataModels.dll
-C:\inetpub\publish\EShopAPI\DataModels.deps.json
-C:\inetpub\publish\EShopAPI\DataModels.pdb
-C:\inetpub\publish\EShopAPI\Microsoft.AspNetCore.Http.Features.dll
-C:\inetpub\publish\EShopAPI\Microsoft.Extensions.Primitives.dll
-C:\inetpub\publish\EShopAPI\Enums.dll
-C:\inetpub\publish\EShopAPI\Enums.pdb
